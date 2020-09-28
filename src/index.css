@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+	background: #001f3f;
+	width: 100%;
+}
+
+.title {
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	margin: 1rem;
+}
+
+.random-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.subheading {
+	font-weight: 400;
+	color: white;
+	text-align: center;
+}
+
+.search-container {
+	text-align: center;
+}
+
+input {
+	margin: 1.5rem;
+	padding: 0.75rem;
+	border-radius: 0.5rem;
+	font-size: 15px;
+}
+
+.button-container {
+	text-align: center;
+}
+
+.btn {
+	margin: 0.5rem;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	padding: 0.5rem;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.btn:active {
+	transform: translateY(3px);
+}
+
+.search-btn {
+	background: #60a3bc;
+}
+
+.search-btn:hover {
+	background: #538ea3;
+}
+
+.random-btn {
+	background: #ed3330;
+}
+
+.random-btn:hover {
+	background: #8f1f1d;
+}
+
+.gif-title {
+	color: white;
+	margin: 2rem 0 0 0;
+}
+
+img {
+	margin: 2rem auto 0 auto;
 }
